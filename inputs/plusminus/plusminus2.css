@@ -1,0 +1,62 @@
+.number {
+  display: inline-block;
+  user-select: none;
+  position: relative;
+  text-align: left;
+  padding: 0;
+  width: 130px;
+  border: 1px solid #ddd;
+  height: 55px;
+}
+.number-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58px;
+  border-left: 1px solid #ddd;
+}
+.number-minus,
+.number-plus {
+  display: block;
+  height: 27px;
+  line-height: 27px;
+  background: #faf4f2;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: arial;
+  color: #3e1e02;
+  text-decoration: none;
+}
+.number-plus {
+  border-bottom: 1px solid #ddd;
+}
+.number-minus:hover,
+.number-plus:hover {
+  background: #fffcfb;
+}
+.number-minus:active,
+.number-plus:active {
+  background: #e8e4e2;
+}
+.number-text {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 33px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 14px;
+  color: #29160a;
+  background: #fff;
+  outline: none;
+  border: none;
+  text-align: right;
+}
+.number-unit {
+  display: inline-block;
+  font-size: 13px;
+  color: #29160a;
+  line-height: 55px;
+  height: 55px;
+}
