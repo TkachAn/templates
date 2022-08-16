@@ -1,0 +1,31 @@
+.pincode {
+  text-align: center;
+  padding: 20px 0;
+}
+.pincode input[type="number"] {
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #5a5a5a;
+  color: #000;
+  padding: 16px 0px;
+  margin: 0 10px;
+  font-size: 50px;
+  font-weight: 700;
+  outline: none;
+  background-color: #fff;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.pincode input[type="number"]::-webkit-outer-spin-button,
+.pincode input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.pincode input[type="number"]:focus {
+  border: 2px solid #1dd216;
+}
